@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Agora Vai</string>
+    <string name="ADICIONAR">ADICIONAR</string>
+    <string name="Posto_de_Combust_vel">Posto de Combustível</string>
+    <string name="Litros">Litros</string>
+    <string name="Valor">Valor</string>
+    <string name="Km">Km</string>
+    <string name="Listar">Listar</string>
+    <string name="Adicionar">Adicionar</string>
+    <string name="KML">KM/L:</string>
+    <string name="title_activity_editor_abastecimento">EditorAbastecimento</string>
+</resources>

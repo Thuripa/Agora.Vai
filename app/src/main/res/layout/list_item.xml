@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+
+        android:id="@+id/tvPosto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Posto_de_Combust_vel"
+        android:textSize="18sp"
+        android:padding="1dp"
+    />
+
+    <TextView
+        android:id="@+id/tvLitros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Litros"
+        android:textSize="18sp"
+        android:padding="1dp"
+        />
+
+    <TextView
+        android:id="@+id/tvValor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Valor"
+        android:textSize="18sp"
+        android:padding="1dp"
+        />
+
+    <TextView
+        android:id="@+id/tvKm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Km"
+        android:textSize="18sp"
+        android:padding="1dp"
+        />
+
+</LinearLayout>
