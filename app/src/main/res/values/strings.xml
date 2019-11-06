@@ -9,4 +9,11 @@
     <string name="Adicionar">Adicionar</string>
     <string name="KML">KM/L:</string>
     <string name="title_activity_editor_abastecimento">EditorAbastecimento</string>
+    <string name="Novo_Posto">Novo Posto</string>
+    <string name="Novo_Litros">Novo Litros</string>
+    <string name="Novo_Valor">Novo Valor</string>
+    <string name="Novo_KM">Novo KM</string>
+    <string name="Editor">Editor</string>
+    <string name="Editar">Editar</string>
+    <string name="Fotografar">Fotografar</string>
 </resources>

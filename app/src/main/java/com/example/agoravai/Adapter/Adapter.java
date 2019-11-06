@@ -1,16 +1,13 @@
 package com.example.agoravai.Adapter;
 
 import android.content.Context;
-import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.EditText;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.agoravai.EditAbast;
 import com.example.agoravai.Model.Abastecimento;
 import com.example.agoravai.R;
 
@@ -29,25 +26,19 @@ public class Adapter extends RecyclerView.Adapter<ViewHolder> {
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int viewType) {
         View view = LayoutInflater.from(c).inflate(R.layout.list_item, viewGroup, false);
-        view.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                getView();
-            }
-        });
         return new ViewHolder(view);
     }
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
 
-        Abastecimento a = abastecimentos.get(position);
 
-        holder.tvPosto.setText(a.getPosto());/*
+        Abastecimento a = abastecimentos.get(position);
+        holder.tvPosto.setText(a.getPosto());
         holder.tvLitros.setText(String.valueOf(a.getLitros()));
         holder.tvValor.setText(String.valueOf(a.getValor()));
         holder.tvKm.setText(a.getKm());
-*/
+
     }
 
     @Override
@@ -56,8 +47,9 @@ public class Adapter extends RecyclerView.Adapter<ViewHolder> {
     }
 
 
-    public void getView() {
-        Intent intent = new Intent(c, EditAbast.class);
+    @Override
+    public int getItemViewType(int position) {
+        return super.getItemViewType(position);
     }
 
     @Override
